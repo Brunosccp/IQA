@@ -44,7 +44,7 @@ O peso deste parâmetro é de 0,08.
 
 #####Sólidos Totais:
 Foi utilizado a seguinte fórmula para calcular o parâmetro qualidade dos Sólidos Totais:<br />
-![](http://oi65.tinypic.com/1y7peo.jpg)<br />
+![](http://oi64.tinypic.com/dzi8vq.jpg)<br />
 O peso deste parâmetro é de 0,08.
 
 #####Variação de Temperatura:
