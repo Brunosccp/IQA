@@ -57,17 +57,9 @@ int main(){
 	}
 	
 
-	printf ("q1=%f\n"
-			"q2=%f\n"
-			"q3=%f\n"
-			"q4=%f\n"
-			"q5=%f\n"
-			"q6=%f\n"
-			"q7=%f\n"
-			"q8=%f\n"
-			"q9=%f\n"
-			"Qualidade Final=%f\n"
-			,q[1],q[2],q[3],q[4],q[5],q[6],q[7],q[8],q[9],qt);
+	printf (
+			"Qualidade da Água=%f\n"
+			,qt);
 
 	if (qt<20)
 		printf("Qualidade Péssima\n");
