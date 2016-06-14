@@ -56,10 +56,7 @@ int main(){
 		qt=qt*pow(q[i],w[i]);
 	}
 	
-
-	printf (
-			"Qualidade da Água=%f\n"
-			,qt);
+	printf ("Qualidade da Água=%f\n",qt);
 
 	if (qt<20)
 		printf("Qualidade Péssima\n");
@@ -110,7 +107,7 @@ double qft (double v1){
 	double a=79.7,b=0.821,c=-1.15;
 	double resultado = a*pow(v1+b,c);
 	if (v1>10)
-		resultado=1;
+		resultado=5;
 	return (resultado);
 }
 double qvt (double v1){
@@ -129,7 +126,7 @@ double qst (double v1){
 	double a=80.26,b=-0.00107,c=0.03009,d=-0.1185,e=ep;
 	double resultado = 133.17*pow(e,-0.0027*v1)-53.17*pow(e,-0.0141*v1)+((-6.2*pow(e,-0.00462*v1))*sin(0.0146*v1));
 	if (v1>500)
-		resultado=32;
+		resultado=30;
 	return(resultado);
 }
 double qo2 (double v1){
